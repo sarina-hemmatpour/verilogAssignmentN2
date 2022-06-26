@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+decoder4=.\Decoder4\Decoder4.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+decoder4=1

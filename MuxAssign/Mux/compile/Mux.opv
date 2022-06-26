@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\MUX\Mux\compile\Mux.erf" -work Mux -lc c:/My_Designs/MUX/library.cfg -fl c:/My_Designs/MUX/Mux/projlib.cfg -o c:/My_Designs/MUX/Mux/compile -l "Mux"

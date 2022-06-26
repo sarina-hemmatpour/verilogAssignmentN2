@@ -1,0 +1,29 @@
+timestamp=1608990403394
+
+[$root]
+A/$root=22|""|0|1*5824
+B/$root=3*2672
+C=8.3.2120.sp1.14.3884  (Windows)|00000010789cd3f53752d0cd517071cbc92c70cbc92f000023b504e8
+
+[DFlipFlop]
+A/DFlipFlop=22|./src/DFlipFlop.v|1|1*6214
+B/DFlipFlop=3*2811
+C=8.3.2120.sp1.14.3884  (Windows)|00000010789cd3f53752d0cd517071cbc92c70cbc92f000023b504e8
+P/~emb=147,292,408,489
+R=./src/DFlipFlop.v|1
+
+[~A]
+LastVerilogToplevel=DFlipFlop
+ModifyID=105
+Version=73
+c:/My_Designs/DFlipFlop/DFlipFlop/src/DFlipFlop.v=0*7399*7760
+
+[~MFT]
+0=27|0DFlipFlop.mgf|7760|3308
+1=17|1DFlipFlop.mgf|6214|5824
+3=17|3DFlipFlop.mgf|2811|2672
+
+[~U]
+$root=12|0*6595|
+DFlipFlop=12|0*6761||0x90
+

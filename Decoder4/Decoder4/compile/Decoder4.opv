@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\Decoder4\Decoder4\compile\Decoder4.erf" -work Decoder4 -lc c:/My_Designs/Decoder4/library.cfg -fl c:/My_Designs/Decoder4/Decoder4/projlib.cfg -o c:/My_Designs/Decoder4/Decoder4/compile -l "Decoder4"

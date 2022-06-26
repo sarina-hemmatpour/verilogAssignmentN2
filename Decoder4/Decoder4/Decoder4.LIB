@@ -1,0 +1,29 @@
+timestamp=1608979472989
+
+[$root]
+A/$root=22|""|0|1*8186
+B/$root=3*3184
+C=8.3.2120.sp1.14.3884  (Windows)|0000000f789cd3f53752d0cd5170494dce4f492d3201001f8c0472
+
+[Decoder4]
+A/Decoder4=22|./src/Decoder4.v|1|1*8576
+B/Decoder4=3*3323
+C=8.3.2120.sp1.14.3884  (Windows)|0000000f789cd3f53752d0cd5170494dce4f492d3201001f8c0472
+P/~emb=124,312,855,933
+R=./src/Decoder4.v|1
+
+[~A]
+LastVerilogToplevel=Decoder4
+ModifyID=59
+Version=73
+c:/My_Designs/Decoder4/Decoder4/src/Decoder4.v=0*7066*7696
+
+[~MFT]
+0=15|0Decoder4.mgf|7696|2138
+1=9|1Decoder4.mgf|8576|8186
+3=9|3Decoder4.mgf|3323|3184
+
+[~U]
+$root=12|0*5410|
+Decoder4=12|0*5576||0x90
+

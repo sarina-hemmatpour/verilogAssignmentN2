@@ -1,0 +1,29 @@
+timestamp=1608976435572
+
+[$root]
+A/$root=22|""|0|1*0
+B/$root=3*0
+C=8.3.2120.sp1.14.3884  (Windows)|0000000e789cd3f53752d0cd51f02dad704e2c4e05001b78043e
+
+[MuxCase]
+A/MuxCase=22|./src/MuxCase.v|1|1*390
+B/MuxCase=3*139
+C=8.3.2120.sp1.14.3884  (Windows)|0000000e789cd3f53752d0cd51f02dad704e2c4e05001b78043e
+P/~emb=164,311,439,540
+R=./src/MuxCase.v|1
+
+[~A]
+LastVerilogToplevel=MuxCase
+ModifyID=13
+Version=73
+c:/My_Designs/Muxcase2/MuxCase/src/MuxCase.v=0*888*1292
+
+[~MFT]
+0=3|0MuxCase.mgf|1292|0
+1=1|1MuxCase.mgf|390|0
+3=1|3MuxCase.mgf|139|0
+
+[~U]
+$root=12|0*0|
+MuxCase=12|0*150||0x90
+

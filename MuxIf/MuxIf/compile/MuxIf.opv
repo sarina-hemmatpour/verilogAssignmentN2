@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\MuxIf\MuxIf\compile\MuxIf.erf" -work MuxIf -lc c:/My_Designs/MuxIf/library.cfg -fl c:/My_Designs/MuxIf/MuxIf/projlib.cfg -o c:/My_Designs/MuxIf/MuxIf/compile -l "MuxIf"

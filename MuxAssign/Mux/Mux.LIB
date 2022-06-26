@@ -1,0 +1,29 @@
+timestamp=1608973099925
+
+[$root]
+A/$root=22|""|0|1*0
+B/$root=3*0
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd3f53752d0cd51f02dad00000cf602c2
+
+[Mux]
+A/Mux=22|./src/Mux.v|1|1*390
+B/Mux=3*139
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd3f53752d0cd51f02dad00000cf602c2
+P/~emb=157,300,439,523
+R=./src/Mux.v|1
+
+[~A]
+LastVerilogToplevel=Mux
+ModifyID=13
+Version=73
+c:/My_Designs/MUX/Mux/src/Mux.v=0*822*1165
+
+[~MFT]
+0=3|0Mux.mgf|1165|0
+1=1|1Mux.mgf|390|0
+3=1|3Mux.mgf|139|0
+
+[~U]
+$root=12|0*0|
+Mux=12|0*150||0x90
+

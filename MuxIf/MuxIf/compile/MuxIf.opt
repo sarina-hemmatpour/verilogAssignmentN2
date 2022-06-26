@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 8.3\bin/systf.dll" -v20  "c:\My_Designs\MuxIf\MuxIf\src\MuxIf.v"  -cs  -g 5  -r -li "c:\My_Designs\MuxIf\MuxIf\compile\MuxIf.epr" -p "c:\My_Designs\MuxIf\MuxIf" 

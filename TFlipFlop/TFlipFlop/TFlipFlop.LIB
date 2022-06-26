@@ -1,0 +1,29 @@
+timestamp=1608991238512
+
+[$root]
+A/$root=22|""|0|1*2892
+B/$root=3*1296
+C=8.3.2120.sp1.14.3884  (Windows)|00000010789cd3f53752d0cd510871cbc92c70cbc92f0000244504f8
+
+[TFlipFlop]
+A/TFlipFlop=22|./src/TFlipFlop.v|1|1*3282
+B/TFlipFlop=3*1435
+C=8.3.2120.sp1.14.3884  (Windows)|00000010789cd3f53752d0cd510871cbc92c70cbc92f0000244504f8
+P/~emb=147,294,414,495
+R=./src/TFlipFlop.v|1
+
+[~A]
+LastVerilogToplevel=TFlipFlop
+ModifyID=59
+Version=73
+c:/My_Designs/TFlipFlop/TFlipFlop/src/TFlipFlop.v=0*4145*4522
+
+[~MFT]
+0=15|0TFlipFlop.mgf|4522|1670
+1=9|1TFlipFlop.mgf|3282|2892
+3=9|3TFlipFlop.mgf|1435|1296
+
+[~U]
+$root=12|0*3318|
+TFlipFlop=12|0*3484||0x90
+

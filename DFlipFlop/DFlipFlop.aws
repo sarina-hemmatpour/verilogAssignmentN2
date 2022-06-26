@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+dflipflop=.\DFlipFlop\DFlipFlop.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+dflipflop=1

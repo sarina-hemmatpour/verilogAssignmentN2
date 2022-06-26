@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\DFlipFlop\DFlipFlop\compile\DFlipFlop.erf" -work DFlipFlop -lc c:/My_Designs/DFlipFlop/library.cfg -fl c:/My_Designs/DFlipFlop/DFlipFlop/projlib.cfg -o c:/My_Designs/DFlipFlop/DFlipFlop/compile -l "DFlipFlop"

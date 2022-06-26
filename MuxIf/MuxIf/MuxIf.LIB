@@ -1,0 +1,29 @@
+timestamp=1608974057380
+
+[$root]
+A/$root=22|""|0|1*1496
+B/$root=3*657
+C=8.3.2120.sp1.14.3884  (Windows)|0000000c789cd3f53752d0cd51f02dadf04c030013720371
+
+[MuxIf]
+A/MuxIf=22|./src/MuxIf.v|1|1*1886
+B/MuxIf=3*796
+C=8.3.2120.sp1.14.3884  (Windows)|0000000c789cd3f53752d0cd51f02dadf04c030013720371
+P/~emb=160,305,430,514
+R=./src/MuxIf.v|1
+
+[~A]
+LastVerilogToplevel=MuxIf
+ModifyID=36
+Version=73
+c:/My_Designs/MuxIf/MuxIf/src/MuxIf.v=0*2477*2842
+
+[~MFT]
+0=9|0MuxIf.mgf|2842|787
+1=5|1MuxIf.mgf|1886|1496
+3=5|3MuxIf.mgf|796|657
+
+[~U]
+$root=12|0*1632|
+MuxIf=12|0*1782||0x90
+

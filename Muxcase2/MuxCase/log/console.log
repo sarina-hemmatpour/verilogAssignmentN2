@@ -1,0 +1,60 @@
+# Design: Design MuxCase already active.
+# DESIGN: Default Design Language: VERILOG
+# DESIGN: Default BDE Language: VERILOG
+# DESIGN: Flow Manager: Not Defined
+alog -O2 -sve  -work MuxCase $dsn/src/MuxCase.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: MuxCase.
+# $root top modules: MuxCase.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +access +r +access +r+w MuxCase
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.8 [s]
+# SLP: Finished : 0.9 [s]
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 4 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.9 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5978 kB (elbread=1023 elab2=4610 kernel=344 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Muxcase2\MuxCase\src\wave.asdb
+#  1:54 AM, Saturday, December 26, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: MuxCase (MuxCase)
+# 4 signal(s) traced.
+run @20ps
+# KERNEL: stopped at time: 20 ps
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @40ps
+# KERNEL: stopped at time: 40 ps
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped
+# Adding file c:\My_Designs\Muxcase2\MuxCase\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\Muxcase2\MuxCase\src\untitled.awc ... Done

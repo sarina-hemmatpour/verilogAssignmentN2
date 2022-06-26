@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\Muxcase2\MuxCase\compile\MuxCase.erf" -work MuxCase -lc c:/My_Designs/Muxcase2/library.cfg -fl c:/My_Designs/Muxcase2/MuxCase/projlib.cfg -o c:/My_Designs/Muxcase2/MuxCase/compile -l "MuxCase"
